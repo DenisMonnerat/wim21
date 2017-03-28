@@ -16,7 +16,7 @@ include './include/favoris.inc.php';
 			Exercice 4 : Favoris 
 		</h2>
 
-			<!-- Compléter -->
+			<!-- À compléter -->
 
 	</div>	
 </body>

@@ -27,7 +27,7 @@ include './include/data.inc.php';
 				</thead>
 				<tbody>
 					
-					<!-- Compléter -->
+					<!-- À compléter -->
 
 				</tbody>
 			</table>
