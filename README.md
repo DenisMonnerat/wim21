@@ -15,7 +15,7 @@ aborde la récupération des données de formulaires avec PHP.
 des fichiers à compléter.
 
 #### TP2bis : Passage de paramètres à un script
-Le [tp2](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp2b)
+Le [tp2bis](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp2b)
 aborde la transmission de paramètres à un script, sans 
 passer par un formulaire, mais en utlisant directement l'url.
 À chaque exercice correspond  un  sous répertoire avec
