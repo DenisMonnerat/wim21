@@ -31,13 +31,18 @@ $rlim=20;
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
 		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body container>
 		<h2 class="_bb1 _mxs _c-base-primary">Exercice 3 : IMC </h2>
 			<table class="table">
 				<thead> 
 					<tr>
-						<th>Nom</th>
+						<th>
+						Nom
+						<a  href="#" ><i class="fa fa-caret-down"></i></a> 
+						<a  href="#" ><i class="fa fa-caret-up"></i></a> 
+						</th>
 						<th>Prénom</th>
 						<th>Email</th>
 						<th>Taille</th>
