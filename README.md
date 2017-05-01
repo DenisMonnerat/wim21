@@ -21,4 +21,11 @@ passer par un formulaire, mais en utlisant directement l'url.
 À chaque exercice correspond  un  sous répertoire avec
 des fichiers à compléter.
 
+#### TP3 : PHP/Mysql
+Le [tp3](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp4)
+aborde l'interfaçage de php avec mysql, au moyen de l'extention 
+[mysqli](http://php.net/manual/fr/book.mysqli.php) de php.
+À chaque exercice correspond  un  sous répertoire avec
+des fichiers à compléter.
+
 
