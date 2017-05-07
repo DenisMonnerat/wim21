@@ -28,4 +28,9 @@ aborde l'interfaçage de php avec mysql, au moyen de l'extention
 À chaque exercice correspond  un  sous répertoire avec
 des fichiers à compléter.
 
-
+#### TP4 : Cookies et sessions 
+Le [tp4](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp7)
+aborde la notion de cookies et de sessions,et 
+les fonctions php dédiées.
+À chaque exercice correspond  un  sous répertoire avec
+des fichiers à compléter.
