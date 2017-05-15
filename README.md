@@ -34,3 +34,8 @@ aborde la notion de cookies et de sessions,et
 les fonctions php dédiées.
 À chaque exercice correspond  un  sous répertoire avec
 des fichiers à compléter.
+#### TP5 : PHP objet
+Le [tp5](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp9)
+aborde la couche objet de php.
+À chaque exercice correspond  un  sous répertoire avec
+des fichiers à compléter.
