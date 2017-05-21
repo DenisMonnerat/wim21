@@ -41,7 +41,7 @@ aborde la couche objet de php.
 À chaque exercice correspond  un  sous répertoire avec
 des fichiers à compléter.
 
-#### TP5 : PHP objet
+#### TP6 : MVC avec CodeIgniter
 Le [tp6](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp10)
 est une introduction au modèle MVC avec le framework 
 [CodeIgniter](https://www.codeigniter.com)
