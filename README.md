@@ -46,6 +46,9 @@ Le [tp6](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp10)
 est une introduction au modèle MVC avec le framework 
 [CodeIgniter](https://www.codeigniter.com)
 L'application permet de gérer des contacs emails.
+
+![gestion de contacts](http://www.iut-fbleau.fr/sitebp/web/wim21/mvc/ci314.png)
+
 Pour qu'elle soit fonctionnelle, 
 Vous devez d'abord réglé les paramètres de configuration dans le répertoire application/config.
 
