@@ -34,8 +34,22 @@ aborde la notion de cookies et de sessions,et
 les fonctions php dédiées.
 À chaque exercice correspond  un  sous répertoire avec
 des fichiers à compléter.
+
 #### TP5 : PHP objet
 Le [tp5](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp9)
 aborde la couche objet de php.
 À chaque exercice correspond  un  sous répertoire avec
 des fichiers à compléter.
+
+#### TP5 : PHP objet
+Le [tp6](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp10)
+est une introduction au modèle MVC avec le framework 
+[CodeIgniter](https://www.codeigniter.com)
+L'application permet de gérer des contacs emails.
+Pour qu'elle soit fonctionnelle, 
+Vous devez d'abord réglé les paramètres de configuration dans le répertoire application/config.
+
+* config.php : donnez l'adresse de base de votre site (base_url). (Vous pouvez également enlever index.php de vos urls (index_page), mais il faudra rajouter un fichier .htaccess pour la réécriture de vos urls)
+* database.php : donnez les paramètres nécessaires à l'accès à la base de données.
+* routes.php : vous pouvez modifiez le contrôleur par défaut (pour l'instant, contacts, c'est à dire que l'url de base de votre site conduit à la méthode index de contact).
+
