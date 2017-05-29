@@ -56,3 +56,13 @@ Vous devez d'abord réglé les paramètres de configuration dans le répertoire 
 * database.php : donnez les paramètres nécessaires à l'accès à la base de données.
 * routes.php : vous pouvez modifiez le contrôleur par défaut (pour l'instant, contacts, c'est à dire que l'url de base de votre site conduit à la méthode index de contact).
 
+
+#### TP7 : Sensibilisation à la sécurité d'un site WEB en PHP
+Le [tp7](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp12)
+est constitué par une petite application (micro-blog) qui 
+permet d'illustrer les attaques classiques vues en cours, et 
+de les corriger.
+
+Pour qu'elle soit fonctionnelle, modidifez les paramètres de 
+connexion (PDO) au sgbd.
+
