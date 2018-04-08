@@ -5,7 +5,7 @@ include './include/favoris.inc.php';
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>tp1 - ex4</title>
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise.min.css">
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
