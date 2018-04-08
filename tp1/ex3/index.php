@@ -5,7 +5,7 @@ include './include/data.inc.php';
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>tp1 - ex3</title>
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise.min.css">
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
 		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
@@ -13,8 +13,7 @@ include './include/data.inc.php';
 	</head>
 	<body container>
 		<h2 class="_bb1 _mxs _c-base-primary">Exercice 3 : IMC </h2>
-		<div class="container">
-			<table class="table">
+			<table>
 				<thead> 
 					<tr>
 						<th>Nom</th>
@@ -26,11 +25,10 @@ include './include/data.inc.php';
 					</tr>
 				</thead>
 				<tbody>
-					
+
 					<!-- À compléter -->
 
 				</tbody>
 			</table>
-		</div>
 	</body>
 </html>
