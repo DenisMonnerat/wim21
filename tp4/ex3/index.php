@@ -11,9 +11,9 @@ session_start();
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise.min.css">
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 

@@ -6,9 +6,9 @@ include './include/data.inc.php';
 	<head>
 		<meta charset="UTF-8">
 		<title>tp1 - ex3</title>
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise.min.css">
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
 		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body container>

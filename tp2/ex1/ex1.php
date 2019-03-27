@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise.min.css">
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<meta charset="UTF-8" />
 		<title></title>
