@@ -30,7 +30,7 @@
 
 			<!-- bouton -->
 
-			<button type="submit" name="soumis"> Calculer</button>
+			<button name="soumis"> Calculer</button>
 
 		</div>
 	</body>

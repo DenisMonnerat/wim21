@@ -13,7 +13,7 @@
 
 		<form  method="GET">
 			<input type=text name="table" placeholder="table">
-			<button  class="btn" type="submit">ENVOYER</button>
+			<button>ENVOYER</button>
 		</form>
 	</body>
 </html>
