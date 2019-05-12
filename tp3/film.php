@@ -15,17 +15,14 @@
  * mes => filtre le metteur en scène
  * page => filtre la page du tableau 
  * */
+$page = filter_input(INPUT_GET,"page",FILTER_VALIDATE_INT,array('min_range'=>0));
+if ($page === FALSE || $page === NULL )
+	$page = 1;
 
-if (isset($_GET['mes'])){      
-	$filtreMes=intval($_GET['mes']);
-}else{
-	$filtreMes=-1;
-}
-if (isset($_GET['page'])){
-	$page = intval($_GET['page']);
-}else{
-	$page=1;
-}
+$mes_filtre = filter_input(INPUT_GET,"mes",FILTER_VALIDATE_INT,array('min_range'=>0));
+if ($mes_filtre === FALSE || $mes_filtre === NULL)
+	$mes_filtre = -1;
+
 include './include/connexion.php';
 ?>
 
@@ -35,7 +32,7 @@ include './include/connexion.php';
 			Réalisateur : <select name="mes">
 				<option value="-1">Tous</option>
 			</select> 
-			<button type="submit" class="btn">Chercher</button>
+			<button  class="btn">Chercher</button>
 		</form>
 
 		<!-- Table des films -->

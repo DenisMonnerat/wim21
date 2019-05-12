@@ -12,7 +12,7 @@
 	</head>
 	<body container>
 <?php
-$idFilm=intval($_GET['film']);
+$idFilm = filter_input(INPUT_GET,"film",FILTER_VALIDATE_INT);
 include './include/connexion.php';
 
 /* 
