@@ -12,14 +12,16 @@ if (isset($_POST['OK'])){
 		&& !empty($password)
 	){
 		$conn = mysqli_connect("localhost","user","user","cinema");
+		// il faudrait vérifier l'existence  du login 
+		// dans la table ! 
 		$stmt = mysqli_prepare($conn, "INSERT INTO user (login , email,password) VALUES ( ? , ? , ? );"); 
 		if (!$stmt) die("Erreur");
 		$hash = password_hash($password,PASSWORD_DEFAULT);
 		if (!mysqli_stmt_bind_param($stmt, 'sss',$login,$email,$hash)) die ("Erreur");
-		if (!mysqli_stmt_execute($stmt)) $message="<section class='alert-box -warning'>Erreur login</section>";
+		if (!mysqli_stmt_execute($stmt)) $message="<section class='alert-box -warning'>Erreur BD</section>";
 		else $message= "<section class='alert-box -success'>Compte créé</section>";
 	}else{
-		$message="<section class='alert-box -warning'>Erreur saisies</section>";
+		$message="<section class='alert-box -warning'>Entrées invalides/section>";
 	}
 }
 ?>
