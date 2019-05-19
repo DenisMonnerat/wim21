@@ -21,7 +21,7 @@ if (isset($_POST['OK'])){
 		if (!mysqli_stmt_execute($stmt)) $message="<section class='alert-box -warning'>Erreur BD</section>";
 		else $message= "<section class='alert-box -success'>Compte créé</section>";
 	}else{
-		$message="<section class='alert-box -warning'>Entrées invalides/section>";
+		$message="<section class='alert-box -warning'>Entrées invalides</section>";
 	}
 }
 ?>
