@@ -1,9 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+// un lien (anchor) est suffisant !
+
 echo form_open('contacts/create',array('method'=>'get','style'=>'text-align:right'));
 echo form_submit('','Ajouter');
 echo form_close();
+
+// on peut construire la table à la main également
 
 $this->table->set_heading(array('Nom', 'Prénom', 'Email',''));
 
