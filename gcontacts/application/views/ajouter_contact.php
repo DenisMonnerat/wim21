@@ -1,5 +1,5 @@
 <div grid>
-	<div column="+3 5">
+	<div column="+3 6">
 		<?php echo validation_errors(); ?>
 		<?php echo form_open('contacts/create',array()); ?>
 		<fieldset>
