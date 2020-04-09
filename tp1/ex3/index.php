@@ -6,13 +6,11 @@ include './include/data.inc.php';
 	<head>
 		<meta charset="UTF-8">
 		<title>tp1 - ex3</title>
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
-		<link rel="stylesheet" href="./css/style.css">
+			<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
+			<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body container>
-		<h2 class="_bb1 _mxs _c-base-primary">Exercice 3 : IMC </h2>
+		<h2>Exercice 3 : IMC </h2>
 			<table>
 				<thead> 
 					<tr>

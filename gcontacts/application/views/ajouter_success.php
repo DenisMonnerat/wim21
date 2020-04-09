@@ -1,3 +1,3 @@
-<div class="alert-box -success">
+<div>
 	<?=$nom?> <?=$prenom?> ajouté avec succès !
 </div>

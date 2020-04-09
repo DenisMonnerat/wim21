@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<meta charset="UTF-8" />
 		<title></title>
 	</head>
 	<body container>
-		<div grid>
-			<div column="8 +2">
-				<h3 class="_bb1 _ms _pbs">
-
-					<!-- À compléter -->
-
-				</h3>
-			</div>
-		</div>
+		<h3>
+		<!-- À compléter -->
+		</h3>
 	</body>
 </html>

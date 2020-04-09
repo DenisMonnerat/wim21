@@ -27,15 +27,13 @@ $rlim=20;
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body container>
-		<h2 class="_bb1 _mxs _c-base-primary">Exercice 3 : IMC </h2>
-			<table class="table">
+		<h2>Exercice 3 : IMC </h2>
+			<table>
 				<thead> 
 					<tr>
 						<th>
@@ -73,8 +71,8 @@ for ($i=$llim;$i<$rlim;$i++){
 			</table>
 
 <!-- affichage de la barre de pagination -->
-
-		<ul class="_mts button-group">
+<nav>
+		<ul>
 <?php
 /* completez le calcul de next et prev
  * utlises dans les liens.
@@ -88,10 +86,10 @@ $next=2;
 			<?php
 				/* compléter l'affichage des liens
 				 * pour chacune des pages. Utiliser la classe
-				 * -active pour la page en cours. 
 				 * */
 			?>
 			<li><a class="item" href="?numpage=<?php echo $next;?>">»</a></li>
 		</ul>
+</nav>
 	</body>
 </html>

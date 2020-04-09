@@ -12,15 +12,13 @@ if (isset($_POST['verbe'])) $verbe = $_POST['verbe'];
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
 		<link rel="stylesheet" href="./css/style.css">
 
 		<title></title>
 	</head>
-	<body container class="_ps">
+	<body container>
 
 	</body>
 </html>

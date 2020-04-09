@@ -24,8 +24,8 @@
 			</div>
 
 			<!-- Button -->
-			<div class="_mts">
-				<button id="envoyer" name="envoyer">Créer</button>
+			<div>
+				<button type="submit" id="envoyer" name="envoyer">Créer</button>
 			</div>
 
 		</fieldset>

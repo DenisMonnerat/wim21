@@ -31,12 +31,12 @@ include './templates/header.php';
 <form action="" method="POST">
 <fieldset>
 <div> 
-		<label>Nom  <input name="name" type="text" value="" /> </label>
+		<label>Nom <br> <input name="name" type="text" value="" /> </label>
 </div>
-	<div><label>	Site perso : <input name="url" type="text" value="" /> </label></div>
+	<div><label>	Site perso <br> <input name="url" type="text" value="" /> </label></div>
 
-<div><label>		Login : <input name="login" type="text" value="" /> </laebl></div>
-<div><label>		Mot de passe : <input name="password" type="password" value="" /> </label></div>
+<div><label>		Login <br> <input name="login" type="text" value="" /> </laebl></div>
+<div><label>		Mot de passe <br> <input name="password" type="password" value="" /> </label></div>
 		<button type="submit" name="ok" value="1">Créer ce compte</button>
 </fieldset>
 </form>

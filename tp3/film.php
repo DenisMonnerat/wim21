@@ -3,13 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Films</title>
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body container>
-		<h2 class="_bb1 _mts">Films</h2>
+		<h2>Films</h2>
 <?php
 /* 2 variables 
  * mes => filtre le metteur en scène
@@ -32,7 +30,7 @@ include './include/connexion.php';
 			Réalisateur : <select name="mes">
 				<option value="-1">Tous</option>
 			</select> 
-			<button  class="btn">Chercher</button>
+			<button type="submit" >Chercher</button>
 		</form>
 
 		<!-- Table des films -->
@@ -76,9 +74,10 @@ $next=$page+1;
 if ($prev<1) $prev=1;
 if ($next>$nbpages) $next=$nbpages;
 ?>
-		<ul class="_mts button-group">
+<nav>
+		<ul>
 			<li>
-				<a class="item" href="?<?php echo $filtreMes;?>&page=<?php echo $prev;?>">
+				<a href="?<?php echo $filtreMes;?>&page=<?php echo $prev;?>">
 					«
 				</a>
 			</li>
@@ -92,10 +91,11 @@ for($i=1;$i<=$nbpages;$i++){
 ?>
 
 			<li>
-				<a class="item" href="?mes=<?php echo $filtreMes;?>&page=<?php echo $next;?>">
+				<a  href="?mes=<?php echo $filtreMes;?>&page=<?php echo $next;?>">
 					»
 				</a>
 			</li>
 		</ul>
+</nav>
 	</body>
 </html>

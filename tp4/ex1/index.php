@@ -8,20 +8,16 @@ $OS = "Linux";
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body container>
 		<div grid="center" class="_mts">
 			<div column="8">
-				<section class=" alert-box">
-					<p class="_text-center _ts8 _c-base-primary">
+					<p>
 						<?php echo $OS;?>
 					</p>
-				</section>
-				<p class="_text-center">Rafraîchir la page <a href=""><i class="fa fa-refresh" aria-hidden="true"></i></a></p>
+				<p>Rafraîchir la page <a href=""><i class="fa fa-refresh" aria-hidden="true"></i></a></p>
 			</div>
 			<div column="4">
 				<form method="POST">
@@ -39,11 +35,10 @@ $OS = "Linux";
 							<input type="radio" name="OS" value="Macos"> 
 							<i class="fa fa-apple fa-2x" aria-hidden="true"></i>
 						</label>
-						<button>Envoyer</button>
+						<button type="submit">Envoyer</button>
 					</fieldset>
 				</form>
 			</div>
 		</div>
-
 	</body>
 </html>

@@ -2,9 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 		<link rel="stylesheet" href="./css/style.css">
 		<title>Exercice 1</title>
 
@@ -12,16 +10,16 @@
 	<body container>
 		<div grid>
 			<div column="8 +2">
-				<h3 class="_bb1 _mbs"> Exercice 1</h3>
+				<h3> Exercice 1</h3>
 				<form  action="ex1.php" method="POST">
 					<fieldset>
 						<legend>Qui êtes-vous ?</legend>
 						<!-- Text input-->
-							<label>Nom
+						<label>Nom<br>
 								<input  name="nom" placeholder="nom"  type="text">
 							</label>
 						<!-- Text input-->
-							<label >Prénom
+						<label >Prénom<br>
 							<input  name="prenom" placeholder="prénom" type="text">
 						</label>
 						<!-- Multiple Radios -->
@@ -35,7 +33,7 @@
 							Femme
 						</label>
 						<!-- Button -->
-						<button>Envoyer</button>
+						<button type="submit">Envoyer</button>
 					</fieldset>
 				</form>
 			</div>

@@ -6,14 +6,12 @@ $liste = contact::getListe();
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 		<link href="./css/style.css" rel="stylesheet" />
 		<title>Contacts</title>
 	</head>
 	<body container>
-		<h3 class="_bb1">Gestion de contacts</h3>
+		<h3>Gestion de contacts</h3>
 		<table class="contacts">
 			<thead>
 				<tr>

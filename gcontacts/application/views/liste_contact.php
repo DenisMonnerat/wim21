@@ -28,7 +28,7 @@ foreach ($contacts as $contact){
 			array('class'=>'btn btn-danger'))." ".
 			anchor('contacts/edit/'.$contact->id,
 				'<i class="fa fa-search"></i>',
-				array('class'=>'btn btn-info')),
+				array('class'=>'')),
 			'style'=>"text-align:right")
 		);
 }

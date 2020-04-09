@@ -7,12 +7,10 @@ $alphabet = "azertyuiopqsdfghjkklmwxcvbnAZERTYUIOPLMKJHGFDSQWXCVBN1234567890";
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 	</head>
 	<body container>
-		<h2 class="_bb1  _c-base-primary">Exercice 5 : createPassword </h2>
+		<h2>Exercice 5 : createPassword </h2>
 		<h3>
 		Test de la fonction createPassword
 		</h3>

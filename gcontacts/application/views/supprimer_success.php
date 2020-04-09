@@ -1,3 +1,3 @@
-<div class="alert-box -success">
+<div>
 	contact supprimé avec succès !
 </div>

@@ -3,9 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title></title>
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
 		<link rel="stylesheet" href="./css/style.css">
 
 
@@ -22,7 +20,7 @@ include './include/connexion.php';
 
 ?>
 
-		<h2 class="_bb1 _mts _mbs"><?php echo $film['titre'];?></h2>
+		<h2><?php echo $film['titre'];?></h2>
 		<div grid>
 			<div column>
 				<img src="<?php echo $film['urlImage'];?>" alt="">

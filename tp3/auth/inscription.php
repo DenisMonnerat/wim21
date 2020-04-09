@@ -30,21 +30,22 @@ if (isset($_POST['OK'])){
 	<head>
 		<meta charset="UTF-8" />
 		<title>Films</title>
-	<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-utils/concise-utils.min.css">
-		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/concise-ui/concise-ui.min.css">
+		<link rel="stylesheet" href="http://www.iut-fbleau.fr/css/tacit.css">
+
 		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<body container>
-				<h2 class="_bb1 _mts">Inscription</h2>
+				<h2>Inscription</h2>
 <?php
 if (isset($message)) echo "$message";
 ?>
 			<form  method="POST" action="">
-			<label for="">Login<input name="login" type="text" value="<?php echo $login;?>"></label>
-			<label for="">Email<input name="email" type="email" value="<?php echo $email;?>"></label>
-			<label for="">Password<input type="password" name="password" value="<?php echo $password;?>"></label>
-<button name="OK">Envoyer</button>
+<fieldset>
+			<label for="">Login<br><input name="login" type="text" value="<?php echo $login;?>"></label>
+			<label for="">Email<br><input name="email" type="email" value="<?php echo $email;?>"></label>
+			<label for="">Password<br><input type="password" name="password" value="<?php echo $password;?>"></label>
+<button type="submit"name="OK">Envoyer</button>
+</fieldset>
 </form>
 	</body>
 </html>
