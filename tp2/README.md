@@ -90,4 +90,5 @@ permettent de valider le type (ou nettoyer) des entrées d'un formulaire
     ```php
 	$terminaisons = array("present"=>array("e","es","e","ons","ez","ent"), ...
 	```
+
 	</details>
