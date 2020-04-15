@@ -77,6 +77,7 @@ permettent de valider le type (ou nettoyer) des entrées d'un formulaire
 
     <details>
 	<summary>Conseils</summary>
+	<div>
     Pour extraire le radical, vous pouvez utiliser la 
 	fonction [substr](http://fr2.php.net/manual/fr/function.substr.php)
 
@@ -90,5 +91,5 @@ permettent de valider le type (ou nettoyer) des entrées d'un formulaire
     ```php
 	$terminaisons = array("present"=>array("e","es","e","ons","ez","ent"), ...
 	```
-
+	</div>
 	</details>
