@@ -126,7 +126,7 @@ pour chaque exercice un squelette à compléter.
         -   [<img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yahoo%21_%282019%29.svg/200px-Yahoo%21_%282019%29.svg.png" width=40>](http://yahoo.fr).
     -   Journaux :
         -   [<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Le_monde_logo.svg/200px-Le_monde_logo.svg.png" width=40>](http://lemonde.fr).
-        -   [<img src="http://upload.wikimedia.org/wikipedia/fr/0/0a/GNUlinuxmagazinefrance.png" width=40](http://www.unixgarden.com/index.php/category/gnu-linux-magazine).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/fr/0/0a/GNUlinuxmagazinefrance.png" width=40>](http://www.unixgarden.com/index.php/category/gnu-linux-magazine).
         -   [<img src="http://upload.wikimedia.org/wikipedia/commons/3/32/L%27%C3%89quipe_wordmark.svg" width=40>](http://lequipe.fr).
     -   Sports :
         -   [<img src="http://upload.wikimedia.org/wikipedia/fr/6/67/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_de_Football.svg" width=50>](http://fff.fr).
@@ -135,7 +135,6 @@ pour chaque exercice un squelette à compléter.
 5.  Ecrire (et tester) une fonction 
 
     ```php
-	
 	<?php
 	string createPassword(int $n, string $alphabet);
 	?>
