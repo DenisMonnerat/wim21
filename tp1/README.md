@@ -122,15 +122,15 @@ pour chaque exercice un squelette à compléter.
     Exemple d'affichage :
 
     -   Moteurs de recherche :
-        -   [![Google]<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/64px-Logo_Google_2013_Official.svg.png" width=40">](http://google.fr).
-        -   [![Yahoo]<img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yahoo%21_%282019%29.svg/200px-Yahoo%21_%282019%29.svg.png" width=40>](http://yahoo.fr).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/64px-Logo_Google_2013_Official.svg.png" width=40">](http://google.fr).
+        -   [<img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yahoo%21_%282019%29.svg/200px-Yahoo%21_%282019%29.svg.png" width=40>](http://yahoo.fr).
     -   Journaux :
-        -   [![Le monde]<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Le_monde_logo.svg/200px-Le_monde_logo.svg.png" width=40>](http://lemonde.fr).
-        -   [![Linux Magazine]<img src="http://upload.wikimedia.org/wikipedia/fr/0/0a/GNUlinuxmagazinefrance.png)](http://www.unixgarden.com/index.php/category/gnu-linux-magazine" width=40>](https://www.linux-magazine.com/).
-        -   [![L\'équipe]<img src="http://upload.wikimedia.org/wikipedia/commons/3/32/L%27%C3%89quipe_wordmark.svg" width=40>](http://lequipe.fr).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Le_monde_logo.svg/200px-Le_monde_logo.svg.png" width=40>](http://lemonde.fr).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/fr/0/0a/GNUlinuxmagazinefrance.png)](http://www.unixgarden.com/index.php/category/gnu-linux-magazine" width=40>](https://www.linux-magazine.com/).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/commons/3/32/L%27%C3%89quipe_wordmark.svg" width=40>](http://lequipe.fr).
     -   Sports :
-        -   [!<img src="http://upload.wikimedia.org/wikipedia/fr/6/67/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_de_Football.svg" width=50>](http://fff.fr).
-        -   [!<img src="http://upload.wikimedia.org/wikipedia/fr/b/bf/FFDF.jpg" width=50>](www.ffdf.fr).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/fr/6/67/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_de_Football.svg" width=50>](http://fff.fr).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/fr/b/bf/FFDF.jpg" width=50>](www.ffdf.fr).
 
 5.  Ecrire (et tester) une fonction 
 
