@@ -5,7 +5,7 @@
 > On utilisera autant que possible les fonctions
 [filter\_input](http://php.net/manual/fr/function.filter-input.php) ou
 [filter\_var](http://php.net/manual/fr/function.filter-var.php) qui
-permettent de valider le type (ou nettoyer) des entrées d\'un formulaire
+permettent de valider le type (ou nettoyer) des entrées d'un formulaire
 (entre autre).
 
 1.  Ecrire le script de traitement associé au formulaire (2 champs texte
@@ -20,7 +20,7 @@ permettent de valider le type (ou nettoyer) des entrées d\'un formulaire
     du nom soit en en majuscule.
 
     Vous pouvez utilisez les fonctions :
-    ```php
+    ```PHP
 	string strtolower ( string $string );
 	string ucfirst ( string $str );
 	```
@@ -31,17 +31,17 @@ permettent de valider le type (ou nettoyer) des entrées d\'un formulaire
 
     ![](./img/ex2.png)
 
-3.  Ecrire une petite calculatrice permettant d\'effectuer des
+3.  Ecrire une petite calculatrice permettant d'effectuer des
     opérations arithmétiques élémentaires (+,x,-,/) sur deux opérandes.
 
     ![](./img/ex3.png)
     1.  Première version : affichez un formulaire permettant, dans
-        l\'ordre, de saisir la première opérande, puis dans une liste
-        (`SELECT`) l\'opération, enfin de saisir la deuxième opérande.
+        l'ordre, de saisir la première opérande, puis dans une liste
+        (`SELECT`) l'opération, enfin de saisir la deuxième opérande.
         Associez à ce formulaire le script effectuant le calcul et
         affichant le résultat.
 
-    2.  Assurez-vous qu\'on ne puisse pas diviser par 0.
+    2.  Assurez-vous qu'on ne puisse pas diviser par 0.
     3.  Deuxième version : après un calcul, réaffichez le formulaire en
         proposant comme valeur par défaut de la première opérande le
         résultat du calcul précédent.
@@ -55,8 +55,8 @@ permettent de valider le type (ou nettoyer) des entrées d\'un formulaire
     ![](./img/ex41.png)
 
     Regardez-bien comment est structuré le quizz (nom des variables,
-    valeurs transmises, etc ). Cela doit vous permettre d\'écrire un
-    script php qui s\'adaptera automatiquement si on rajoute ou on
+    valeurs transmises, etc ). Cela doit vous permettre d'écrire un
+    script php qui s'adaptera automatiquement si on rajoute ou on
     enlève des questions au quizz.
 
     Evidemment, il est très facile de tricher !
