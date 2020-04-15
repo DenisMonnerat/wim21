@@ -15,6 +15,7 @@ permettent de valider le type (ou nettoyer) des entrées d\'un formulaire
 
     <img src="./img/exo1.png" width="400"> 
     <img src="./img/exo11.png" width="400"> 
+
     Faites en sorte que la première lettre (et elle seule) du prénom et
     du nom soit en en majuscule.
 
