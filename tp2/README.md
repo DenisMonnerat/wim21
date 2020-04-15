@@ -88,5 +88,5 @@ permettent de valider le type (ou nettoyer) des entrées d\'un formulaire
     terminaisons possibles, ainsi que les pronoms personnels.
 
     ```php
-	terminaisons = array("present"=>array("e","es","e","ons","ez","ent"), ...
+	$terminaisons = array("present"=>array("e","es","e","ons","ez","ent"), ...
 	```
