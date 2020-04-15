@@ -1,6 +1,13 @@
-# Travaux pratiques de programmation WEB coté serveur
-Ce dépôt contient des ressources utilisées
-dans les tps du module *WIM2.1*.
+# Programmation WEB coté serveur
+Ce dépôt contient les ressources utilisées
+(cours/td/tp) dans le module *WIM2.1*.
+
+## Calendrier  
+
+| Semaine            | Cours                                     | TD/TP              |
+| ------------------ | ----------------------------------------- | ------------------ |
+| 1 : 20/04 - 24/04  | [Bases du langages](./cours/coursphp.pdf) | [tp1](./tp1)       |
+
 
 #### TP1 : Bases du langage PHP
 Le [tp1](./tp1) 
