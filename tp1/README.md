@@ -130,6 +130,7 @@ pour chaque exercice un squelette à compléter.
         -   [![L\'équipe](http://upload.wikimedia.org/wikipedia/commons/3/32/L%27%C3%89quipe_wordmark.svg)](http://lequipe.fr).
     -   Sports :
         -   [![](http://upload.wikimedia.org/wikipedia/fr/6/67/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_de_Football.svg)](http://fff.fr).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/fr/6/67/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_de_Football.svg" width=30>](http://fff.fr).
         -   [![](http://upload.wikimedia.org/wikipedia/fr/b/bf/FFDF.jpg)](www.ffdf.fr).
 
 5.  Ecrire (et tester) une fonction 
