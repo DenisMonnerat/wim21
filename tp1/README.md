@@ -92,7 +92,8 @@ pour chaque exercice un squelette à compléter.
 
         ![tableau](./ex3/img/tableau_ex3.png)
 
-	    **Conseils**
+	    <details><summary>Conseils</summary>
+		<div>
 		-   Pour utiliser le fichier de données, incluez-le dans votre
         script.
 		-   La structure de langage `foreach` fournit une façon simple de
@@ -112,7 +113,8 @@ pour chaque exercice un squelette à compléter.
         [ici](http://fr2.php.net/manual/fr/control-structures.foreach.php).
 
 		-   Pour arrondir un réel, vous pouvez utiliser la fonction [round](https://www.php.net/manual/fr/function.round.php).
-
+	    </div>
+		</details>
 4.  Ecrire un programme PHP qui affiche, sous forme d'une liste
     "cliquable" vos bookmarks (favoris) stockés dans un tableau
     associatif. Vos bookmarks seront classés par répertoire. Chaque
@@ -143,8 +145,8 @@ pour chaque exercice un squelette à compléter.
 	qui permet de générer un mot de passe de `n` caractères choisis
     aléatoirement parmi les caractères de `alphabet`.
 
-	**Conseils**
-
+	<details><summary>Conseils</summary>
+	<div>
     Il suffit de tirer aléatoirement `n` caractères de la chaîne
     `alphabet` et de les concatener.
 	Les fonctions 
@@ -152,3 +154,5 @@ pour chaque exercice un squelette à compléter.
 	et 
 	[mt_rand](https://www.php.net/manual/fr/function.mt-rand.php)
 	pourront vous être utiles.
+	</div>
+	</details>
