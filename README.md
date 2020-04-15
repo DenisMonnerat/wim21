@@ -4,9 +4,10 @@ Ce dépôt contient les ressources utilisées
 
 ## Calendrier  
 
-| Semaine            | Cours                                     | TD/TP              |
-| ------------------ | ----------------------------------------- | ------------------ |
-| 1 : 20/04 - 24/04  | [Bases du langages](./cours/coursphp.pdf) | [tp1](./tp1)       |
+| Semaine            | Cours                                                    | TD/TP              |
+| ------------------ | -------------------------------------------------------- | ------------------ |
+| 1 : 20/04 - 24/04  | [Bases du langages](./cours/coursphp.pdf)                | [tp1](./tp1)       |
+| 1 : 27/04 - 01/05  | [Intéractions avec le client](./cours/coursphp2.pdf)     | [tp2](./tp2)       |
 
 
 #### TP1 : Bases du langage PHP
