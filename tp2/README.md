@@ -76,8 +76,7 @@ permettent de valider le type (ou nettoyer) des entrées d'un formulaire
     ![](./img/ex51.png)
 
     <details>
-	<summary>Quelques conseils</summary>
-
+	<summary>Conseils</summary>
     Pour extraire le radical, vous pouvez utiliser la 
 	fonction [substr](http://fr2.php.net/manual/fr/function.substr.php)
 
