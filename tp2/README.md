@@ -20,7 +20,7 @@ permettent de valider le type (ou nettoyer) des entrées d'un formulaire
     du nom soit en en majuscule.
 
     Vous pouvez utilisez les fonctions :
-    ```html
+    ```php
 	string strtolower ( string $string );
 	string ucfirst ( string $str );
 	```
