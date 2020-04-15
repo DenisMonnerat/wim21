@@ -21,10 +21,8 @@ permettent de valider le type (ou nettoyer) des entrées d\'un formulaire
 
     Vous pouvez utilisez les fonctions :
     ```php
-	<?php
 	string strtolower ( string $string );
 	string ucfirst ( string $str );
-	?>
 	```
 
 2.  Ecrire un (seul) script qui saisit dans un champs texte un entier et
