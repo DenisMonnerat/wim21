@@ -8,7 +8,7 @@ Ce dépôt contient les ressources utilisées
 
 Les notions suivantes seront abordées :
 
-- Le langage php 
+- Le langage php   
  On se limitera aux bases du langages. La couche objet sera présenté très succintement. 
  Toute la suite sera illustré avec PHP.
 
