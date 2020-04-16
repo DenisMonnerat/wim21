@@ -33,6 +33,7 @@ Les notions suivantes seront abordées :
 | 1 : 20/04 - 24/04  | [Bases du langages](./cours/coursphp.pdf)                | [tp1](./tp1)       |
 | 1 : 27/04 - 01/05  | [Intéractions avec le client](./cours/coursphp2.pdf)     | [tp2](./tp2)       |
 
+## Les TPS
 
 #### TP1 : Bases du langage PHP
 Le [tp1](./tp1) 
