@@ -1,6 +1,30 @@
 # Programmation WEB coté serveur
 Ce dépôt contient les ressources utilisées
-(cours/td/tp) dans le module *WIM2.1*.
+(cours/td/tp) dans le module WIM2.1 (M3104).
+
+**Les objectifs**
+
+> Savoir développer une application Web côté serveur, en utilisant le langage PHP.
+
+Les notions suivantes seront abordées :
+
+- Le langage php
+ On se limitera aux bases du langages. La couche objet sera présenté très succintement. 
+ Toute la suite sera illustré avec PHP.
+
+- Interaction avec le client
+  URL (Uniform Resource Locator), requêtes, formulaires, transmission des paramètres, des données, etc.
+
+- Applications Web à états
+  Cookies et sessions
+
+- Organisation de l’accès aux données
+ Bases de données, annuaires, services Web, etc.
+
+- Introduction à la programmation objet en PHP
+  Introduction au principe MVC
+
+- Sensibilisation à la sécurité des applications web
 
 ## Calendrier  
 
