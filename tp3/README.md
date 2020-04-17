@@ -43,22 +43,22 @@ des les \"intégrer\" à php !**
 
     ![](./img/film.png)
 
-   <details><summary>Conseils</summary>
-   <div>
+    <details><summary>Conseils</summary>
+    <div>
 
    - le serveur tourne sur le serveur http, donc pour vous connecter,
       utiliser `localhost` comme nom. 
    - Pour récuperer les informations demandées, pensez à faire une
       jointure entre Film et Artiste.
-   </div>
-   </details>   
+    </div>
+    </details>   
 
 2. Modifiez le script précédent afin de paginer l'affichage des films.
 
     ![](./img/film1.png)
 
-   <details><summary>Conseils</summary>
-   <div>
+    <details><summary>Conseils</summary>
+    <div>
 
    - La clause `LIMIT` dans un SELECT permet de restreindre le nombre de
     résultats de la requête.
@@ -69,16 +69,16 @@ des les \"intégrer\" à php !**
 
     Il faut utliser juste après la requête la fonction MySQL
     `FOUND_ROWS()`.
-	</div>
-	</details>
+	 </div>
+	 </details>
 
 3. Ajoutez dans le script précédent un formulaire avec une liste déroulante
    qui permet de filtrer les films par réalisateur.
 
     ![](./img/film2.png)
 
-   <details>summary>Conseils</summary>
-   <div>
+    <details>summary>Conseils</summary>
+    <div>
 
    Il faut récupérer dans la table Artiste les réalisateurs, et peupler une
    liste déroulante. La valeur envoyé par le formulaire sera bien sûr
@@ -86,8 +86,8 @@ des les \"intégrer\" à php !**
 
    Faites en sorte, comme sur la capture d'écran, de réafficher la liste
    déroulante avec le nom du réalisateur dernièrement selectionné.
-   </div>
-   </details>
+    </div>
+    </details>
 
 4. On veut dans cette question, à partir de la liste, afficher le détail
    d'un film. Pour cela, chaque titre, dans le tableau, sera un lien qui
