@@ -99,7 +99,6 @@
      (déplacements, réinitialisation de la partie) du formulaire.
 
      Pour cela, on utilisera les variables de session suivantes :
-
       - `$_SESSION['m']` : la matrice du jeu.
       - `$_SESSION['x]` et `$_SESSION['y']` : le position actuelle
             du joueur.
