@@ -52,8 +52,6 @@ des les \"intégrer\" à php !**
       jointure entre Film et Artiste.
    </div>
    </details>
-
-
 2. Modifiez le script précédent afin de paginer l'affichage des films.
 
    ![](./img/film1.png)
@@ -72,9 +70,8 @@ des les \"intégrer\" à php !**
     `FOUND_ROWS()`.
 	</div>
 	</details>
-
 3. Ajoutez dans le script précédent un formulaire avec une liste déroulante
-  qui permet de filtrer les films par réalisateur.
+   qui permet de filtrer les films par réalisateur.
 
    ![](./img/film2.png)
 
@@ -86,10 +83,9 @@ des les \"intégrer\" à php !**
    l'identifiant du réalisateur.
 
    Faites en sorte, comme sur la capture d'écran, de réafficher la liste
-  déroulante avec le nom du réalisateur dernièrement selectionné.
-  </div>
-  </details>
-
+   déroulante avec le nom du réalisateur dernièrement selectionné.
+   </div>
+   </details>
 4. On veut dans cette question, à partir de la liste, afficher le détail
    d'un film. Pour cela, chaque titre, dans le tableau, sera un lien qui
    conduira à la fiche du film. L'identifiant du film sera passé dans
@@ -99,8 +95,6 @@ des les \"intégrer\" à php !**
    <a href="./fiche.php?film=1">Vertigo</a>
    ```
 
-   ![](./sgbd/film3.png)
-
-
+   ![](./img/film3.png)
 5. Pour ceux qui s'ennuient, faites en sorte que l'on puisse trier
    l'affichage sous forme de tableau par odre de titre, année, ou genre.
