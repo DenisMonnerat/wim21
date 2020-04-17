@@ -2,7 +2,7 @@
 #  Cookies et sessions en PHP.
 
 
-1.  Complétez le script `index.php` de l'exercice 1 de manière à
+1. Complétez le script `index.php` de l'exercice 1 de manière à
     mémoriser grâce à un cookie son os préféré (parmi Linux, Windows et
     MacOS). Le cookie est valable pendant une minute, et l'os par
     défaut est Linux.
@@ -10,17 +10,17 @@
     ![](./img/cookie.png)
 
 
-2.  On désire rendre les pages du [tp3](./tp3) (cinema) accessibles
+2. On désire rendre les pages du [tp3](./tp3) (cinema) accessibles
     uniquement à des utilisateur **inscrits au préalable**.
 
-    -  Rajouter à la base une table `user` qui comprend un **login**,
+   -  Rajouter à la base une table `user` qui comprend un **login**,
         **email** et un **password**. (login est la clé)
-    -  Ecrire un formulaire d'inscription au site qui comprend les
+   -  Ecrire un formulaire d'inscription au site qui comprend les
         champs correspondants. Vous enregistrerez dans la base la mot de
         passe hashé avec la fonction
         [password\_hash](http://php.net/manual/fr/function.password-hash.php)
         de php.
-    -  Faire en sorte que toutes les pages de l'application soient
+   -  Faire en sorte que toutes les pages de l'application soient
         accessibles **uniquement** si l'utilisateur s'est authentifié.
         (utiliser une session)
 
@@ -62,17 +62,17 @@
 	?>
 	```
 
-3.  Le but est de créer un mini-jeu où l'on doit amener le joueur vers
-    un but à travers un labyrinthe.
+3. Le but est de créer un mini-jeu où l'on doit amener le joueur vers
+   un but à travers un labyrinthe.
 
     ![](./img/lab.png)
 
-    - Dans le fichier `include/labyrinthe.php`, complétez la fonction
-      php qui calcule un labyrinthe : un tableau de caractères à 2
-      dimensions (sans les obtacles pour l'instant).  
-      On représente un morceau de mur par `#`, le personnage par `o`, et la sortie par `*`.
+   - Dans le fichier `include/labyrinthe.php`, complétez la fonction
+     php qui calcule un labyrinthe : un tableau de caractères à 2
+     dimensions (sans les obtacles pour l'instant).  
+     On représente un morceau de mur par `#`, le personnage par `o`, et la sortie par `*`.
 
-      ```php
+     ```php
 	  <?php
 	  function creer_labyrinthe($l,$h,$dx,$dy,$ax,$ay){
 	  // $l,$h taille
@@ -81,7 +81,7 @@
 	  }
 	  ?>
 	  ```
-    - Ecrire la fonction php qui affiche un labyrinthe en html,
+   - Ecrire la fonction php qui affiche un labyrinthe en html,
 
      ```php
 	 <?php
@@ -95,17 +95,17 @@
      sous forme d'une table html, comme sur la capture d'écran.
      Pour cela, vous disposez, dans `css/style.css`, des classes css `labyrinthe, sortie, thesee, mur`.
 
-    - Ajoutez le code correspondant aux actions possibles
-        (déplacements, réinitialisation de la partie) du formulaire.
+   - Ajoutez le code correspondant aux actions possibles
+     (déplacements, réinitialisation de la partie) du formulaire.
 
-      Pour cela, on utilisera les variables de session suivantes :
+     Pour cela, on utilisera les variables de session suivantes :
 
-      - `$_SESSION['m']` : la matrice du jeu.
-      - `$_SESSION['x]` et `$_SESSION['y']` : le position actuelle
+     - `$_SESSION['m']` : la matrice du jeu.
+     - `$_SESSION['x]` et `$_SESSION['y']` : le position actuelle
             du joueur.
-      - `$_SESSION['mv']` : le nombre de déplacements du joueur
+     - `$_SESSION['mv']` : le nombre de déplacements du joueur
            depuis le début de la partie.
 
-    - Ajoutez des obtacles dans le labyrinthe (on ne s'intéressera
+     - Ajoutez des obtacles dans le labyrinthe (on ne s'intéressera
         pas au problème de l'existence d'un chemin pour sortir).
 
