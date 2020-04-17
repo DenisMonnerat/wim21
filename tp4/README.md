@@ -69,10 +69,8 @@
 
     - Dans le fichier `include/labyrinthe.php`, complétez la fonction
       php qui calcule un labyrinthe : un tableau de caractères à 2
-      dimensions (sans les obtacles pour l'instant) .
-
+      dimensions (sans les obtacles pour l'instant).  
       On représente un morceau de mur par `#`, le personnage par `o`, et la sortie par `*`.
-
       ```php
 	  <?php
 	  function creer_labyrinthe($l,$h,$dx,$dy,$ax,$ay){
