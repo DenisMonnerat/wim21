@@ -51,7 +51,7 @@ des les \"intégrer\" à php !**
    - Pour récuperer les informations demandées, pensez à faire une
       jointure entre Film et Artiste.
    </div>
-   </details>
+   </details>   
 2. Modifiez le script précédent afin de paginer l'affichage des films.
 
    ![](./img/film1.png)
