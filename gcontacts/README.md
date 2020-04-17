@@ -9,9 +9,12 @@ La documentation de CodeIgniter est disponible à la racine dans le
 repertoire `user_guide`.
 
 L'application utilise une table
+
 ```
 contacts** (#id,nom,prenom,email)
-```	sur mysql. Le site (http://generatedata.com/)[http://generatedata.com/] 
+```	
+
+sur mysql. Le site (http://generatedata.com/)[http://generatedata.com/] 
 permet de générer un jeu de données pour votre table.
 
 Vous devez d'abord réglé les paramètres de configuration dans le
