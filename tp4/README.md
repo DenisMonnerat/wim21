@@ -14,7 +14,7 @@
     uniquement à des utilisateur **inscrits au préalable**.
 
     -  Rajouter à la base une table `user` qui comprend un **login**,
-        **eamil** et un **password**. (login est la clé)
+        **email** et un **password**. (login est la clé)
     -  Ecrire un formulaire d'inscription au site qui comprend les
         champs correspondants. Vous enregistrerez dans la base la mot de
         passe hashé avec la fonction
@@ -71,26 +71,26 @@
       php qui calcule un labyrinthe : un tableau de caractères à 2
       dimensions (sans les obtacles pour l'instant) .
 
-      On représente un morceau de mur par `#`, le personnage par
-        `o`, et la sortie par `*`.
+      On représente un morceau de mur par `#`, le personnage par `o`, et la sortie par `*`.
+
+      ```php
+	  <?php
+	  function creer_labyrinthe($l,$h,$dx,$dy,$ax,$ay){
+	  // $l,$h taille
+	  // $dx,$dy départ
+	  // $ax,$ay arrivée
+	  }
+	  ?>
+	  ```
+    - Ecrire la fonction php qui affiche un labyrinthe en html,
      ```php
 	 <?php
-	function creer_labyrinthe($l,$h,$dx,$dy,$ax,$ay){
-	// $l,$h taille
-	// $dx,$dy départ
-	// $ax,$ay arrivée
-	}
-	?>
+	 function afficher_labyrinthe($m){
+	 // affiche le labyrinthe
+	 // sous la forme d'une table html
+	 }
+	 ?>
 	 ```
-    - Ecrire la fonction php qui affiche un labyrinthe en html,
-    ```php
-	<?php
-	function afficher_labyrinthe($m){
-	// affiche le labyrinthe
-	// sous la forme d'une table html
-	}
-	?>
-	```
 
      sous forme d'une table html, comme sur la capture d'écran.
      Pour cela, vous disposez, dans `css/style.css`, des classes css
