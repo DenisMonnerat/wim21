@@ -97,14 +97,13 @@
 
    - Ajoutez le code correspondant aux actions possibles
      (déplacements, réinitialisation de la partie) du formulaire.
-
      Pour cela, on utilisera les variables de session suivantes :
+
        - `$_SESSION['m']` : la matrice du jeu.
        - `$_SESSION['x]` et `$_SESSION['y']` : le position actuelle
             du joueur.
        - `$_SESSION['mv']` : le nombre de déplacements du joueur
            depuis le début de la partie.
-
    - Ajoutez des obtacles dans le labyrinthe (on ne s'intéressera
         pas au problème de l'existence d'un chemin pour sortir).
 
