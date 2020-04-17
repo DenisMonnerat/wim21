@@ -98,7 +98,7 @@ des les \"intégrer\" à php !**
    <a href="./fiche.php?film=1">Vertigo</a>
    ```
 
-    ![](./img/film3.png)
+   ![](./img/film3.png)
 
 5. Pour ceux qui s'ennuient, faites en sorte que l'on puisse trier
    l'affichage sous forme de tableau par odre de titre, année, ou genre.
