@@ -74,7 +74,7 @@ aborde la couche objet de php.
 À chaque exercice correspond  un  sous répertoire avec
 des fichiers à compléter.
 
-#### TP6 : MVC avec CodeIgniter
+#### TP6 : MVC avec CodeIgniter (Version 3.x)
 Le [tp6](http://www.iut-fbleau.fr/sitebp/web/wim21/?p=tp10)
 est une introduction au modèle MVC avec le framework 
 [CodeIgniter](https://www.codeigniter.com)
