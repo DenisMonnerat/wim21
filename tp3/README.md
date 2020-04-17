@@ -77,7 +77,7 @@ des les \"intégrer\" à php !**
 
     ![](./img/film2.png)
 
-    <details>summary>Conseils</summary>
+    <details><summary>Conseils</summary>
     <div>
 
     Il faut récupérer dans la table Artiste les réalisateurs, et peupler une
