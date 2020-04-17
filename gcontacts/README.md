@@ -8,21 +8,22 @@ fonctionnalités tout en respectant l'architecture de l'application.
 La documentation de CodeIgniter est disponible à la racine dans le
 repertoire `user_guide`.
 
-L'application utilise une table
+L'application utilise une table  
 
-```sql
-contacts (#id,nom,prenom,email)
-```	
 
-sur mysql. Le site (http://generatedata.com/)[http://generatedata.com/] 
+ ```sql
+ contacts (#id,nom,prenom,email)
+ ```
+
+sur mysql. Le site [(http://generatedata.com/](http://generatedata.com/)
 permet de générer un jeu de données pour votre table.
 
 Vous devez d'abord réglé les paramètres de configuration dans le
 répertoire `application/config`.
 
 -  **config.php** : donnez l'adresse de base de votre site
-    (base\_url). (Vous pouvez également enlever index.php de vos urls
-    (index\_page), mais il faudra rajouter un fichier `.htaccess` pour
+    (base_url). (Vous pouvez également enlever index.php de vos urls
+    (index_page), mais il faudra rajouter un fichier `.htaccess` pour
     la réécriture de vos urls)
 
 -  **database.php** : donnez les paramètres nécessaires à l'accès à la
@@ -33,6 +34,7 @@ répertoire `application/config`.
     conduit à la méthode index de contact).
 
 **Vous devriez avoir une application accessible à l'url** :
+
 
 ```bash
 http://dwarves.arda/\~login/gcontacts/
