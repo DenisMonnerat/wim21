@@ -80,12 +80,12 @@ des les \"intégrer\" à php !**
     <details>summary>Conseils</summary>
     <div>
 
-   Il faut récupérer dans la table Artiste les réalisateurs, et peupler une
-   liste déroulante. La valeur envoyé par le formulaire sera bien sûr
-   l'identifiant du réalisateur.
+    Il faut récupérer dans la table Artiste les réalisateurs, et peupler une
+    liste déroulante. La valeur envoyé par le formulaire sera bien sûr
+    l'identifiant du réalisateur.
 
-   Faites en sorte, comme sur la capture d'écran, de réafficher la liste
-   déroulante avec le nom du réalisateur dernièrement selectionné.
+    Faites en sorte, comme sur la capture d'écran, de réafficher la liste
+    déroulante avec le nom du réalisateur dernièrement selectionné.
     </div>
     </details>
 
