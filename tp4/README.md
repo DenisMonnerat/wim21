@@ -91,7 +91,6 @@
 	 }
 	 ?>
 	 ```
-
      sous forme d'une table html, comme sur la capture d'écran.
      Pour cela, vous disposez, dans `css/style.css`, des classes css `labyrinthe, sortie, thesee, mur`.
 
