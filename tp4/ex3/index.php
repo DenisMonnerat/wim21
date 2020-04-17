@@ -18,20 +18,17 @@ session_start();
 
 	</head>
 	<body container>
-		<h2>Labyrinthe </h2>
-		<p>Dirigez <i class='fa fa-user-o'></i> vers <i class='fa fa-sign-out'></i>
+		<h1 class="center">Labyrinthe </h1>
+		<p class="center">Dirigez <i class='fa fa-user-o'></i> vers <i class='fa fa-sign-out'></i>
 		(déplacements : <?php echo $_SESSION['mv'];?>)
 		</p>
-		<div grid>
-			<div column="+3 6">
+			<div class="center">
 				<?php
 				//echo "message=$message";
 				afficher_labyrinthe($_SESSION['m']);
 				?>
 			</div>
-		</div>
-		<div grid>
-			<div column="+3 6">
+			<div class="center">
 				<form>
 					<button value='O' name='DIR'><i class="fa fa-arrow-left"></i></button>
 					<button value='E' name='DIR'><i class="fa fa-arrow-right"></i></button>
@@ -39,9 +36,7 @@ session_start();
 					<button value='N' name='DIR'><i class="fa fa-arrow-up"></i></button>
 					<button value='RESET' name='RESET'><i class="fa fa-refresh"></i></button>
 				</form>
-			</div>
 		</div>
-	</div>
 </body>
 </html>
 

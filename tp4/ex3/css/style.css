@@ -1,28 +1,35 @@
 table.labyrinthe{
-border-collapse: collapse;
- table-layout:fixed;
-  margin-left:auto;
-    margin-right:auto;
+	border-collapse: collapse;
+	table-layout:fixed;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	width:auto;
 }
 table.labyrinthe td {
-border : 1px solid #aaaaaa;
-width:45px;
-height:45px;
-padding : 0px;
-margin:0px;
-  overflow: hidden;
-    white-space: nowrap;
+	border : 1px solid #aaaaaa;
+	width:45px;
+	height:45px;
+	padding : 0px;
+	margin:0px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align:center;
+	vertical-align:middle;
 }
 
 table.labyrinthe td.mur {
-background-color : #C65146;//EBE1D3;//#da3c3c;
+	background-color : #275A90;//#C65146;//EBE1D3;//#da3c3c;
 }
 
 table.labyrinthe td.thesee {
 
-background-color : #F17F42;;
+	background-color : #F17F42;;
 }
 table.labyrinthe td.sortie {
 
-background-color : #10a887;
+	background-color : #10a887;
+}
+.center{
+	text-align:center;
 }
