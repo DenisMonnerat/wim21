@@ -10,8 +10,8 @@ repertoire `user_guide`.
 
 L'application utilise une table
 
-```
-contacts** (#id,nom,prenom,email)
+```sql
+contacts (#id,nom,prenom,email)
 ```	
 
 sur mysql. Le site (http://generatedata.com/)[http://generatedata.com/] 
@@ -34,7 +34,7 @@ répertoire `application/config`.
 
 **Vous devriez avoir une application accessible à l'url** :
 
-```
+```bash
 http://dwarves.arda/\~login/gcontacts/
 ```
 
