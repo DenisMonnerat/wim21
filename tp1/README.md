@@ -12,6 +12,14 @@ Pour monter ce repertoire dans votre aborescence locale, vous pouvez utiliser le
 sshfs login@gatekeeper.iut-fbleau.fr:/export/home/an19/login repertoire/de/montage/local/
 ```
 
+Depuis la version 5.4, la commande `php` embarque un serveur web interne :
+
+```bash
+php -S localhost:8080 -t repertoire
+```
+
+Le repertoire passé en paramètre est la racine du serveur web.
+
 
 Vous pouvez récupérer sur le projet git
 
