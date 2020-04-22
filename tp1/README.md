@@ -44,7 +44,7 @@ pour chaque exercice un squelette à compléter.
     précédent la configuration php du serveur dwarves.
 
 2.  Quel est l'entier servant de clé à
-	- chaque élément du tableau ?
+	- chaque élément du tableau 
         suivant :
 	```php
 	<?php
@@ -87,15 +87,15 @@ pour chaque exercice un squelette à compléter.
 	array("Nom"=>"Soto","Prenom"=>"Cleo","Email"=>"posuereatvelit@Incondimentumca","Taille"=>"167","Poids"=>"70")
 	```
 
-    1.  Ecrire un script qui affichent l\'ensemble des données sous
+    1.  Ecrire un script qui affichent l'ensemble des données sous
         forme d'un tableau html.
-    2.  L'imc (indice de masse corporel) d\'une personne est donné par
-        la formule `poids/taille^2` (poids en kilogramme et taille en mètre). 
+    2.  L'imc (indice de masse corporel) d'une personne est donné par
+        la formule \(\frac{poids}\frac{taille^2}\) (poids en kilogramme et taille en mètre). 
 
 		Ajouter une colonne avec la valeur de l'imc (2 chiffres après la virgule).
 
     3.  Une personne est considérée en surpoids lorsque son imc
-        dépasse 25. Colorier les lignes du tableau en rouge lorsque la
+        dépasse 25. Colorier les lignes du tableau lorsque la
         personne correspondante est en surpoids.
 
         ![tableau](./ex3/img/tableau_ex3.png)
