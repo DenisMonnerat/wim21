@@ -155,8 +155,8 @@ pour chaque exercice un squelette à compléter.
     Il suffit de tirer aléatoirement <code>n</code> caractères de la chaîne
     <code>alphabet</code> et de les concaténer.
 	Les fonctions 
-	[strlen](https://www.php.net/manual/fr/function.strlen.php) 
+	<a href="https://www.php.net/manual/fr/function.strlen.php">strlen</a>
 	et 
-	[mt_rand](https://www.php.net/manual/fr/function.mt-rand.php)
+	<a src="https://www.php.net/manual/fr/function.mt-rand.php">mt_rand</a>
 	pourront vous être utiles.
 	</details>
