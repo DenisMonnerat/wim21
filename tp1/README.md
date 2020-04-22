@@ -148,17 +148,15 @@ pour chaque exercice un squelette à compléter.
 	?>
 	```
 
-	qui permet de générer un mot de passe de `n` caractères choisis
-    aléatoirement parmi les caractères de `alphabet`.
+	qui permet de générer un mot de passe de <code>n</code> caractères choisis
+    aléatoirement parmi les caractères de <code>alphabet</code>.
 
 	<details><summary>Conseils</summary>
-	<div>
-    Il suffit de tirer aléatoirement `n` caractères de la chaîne
-    `alphabet` et de les concatener.
+    Il suffit de tirer aléatoirement <code>n</code> caractères de la chaîne
+    <code>alphabet</code> et de les concaténer.
 	Les fonctions 
 	[strlen](https://www.php.net/manual/fr/function.strlen.php) 
 	et 
 	[mt_rand](https://www.php.net/manual/fr/function.mt-rand.php)
 	pourront vous être utiles.
-	</div>
 	</details>
