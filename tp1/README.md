@@ -130,7 +130,7 @@ pour chaque exercice un squelette à compléter.
     Exemple d'affichage :
 
     -   Moteurs de recherche :
-        -   [<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/64px-Logo_Google_2013_Official.svg.png" width=40">](http://google.fr).
+        -   [<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/64px-Logo_Google_2013_Official.svg.png" width=40>](http://google.fr).
         -   [<img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Yahoo%21_%282019%29.svg/200px-Yahoo%21_%282019%29.svg.png" width=40>](http://yahoo.fr).
     -   Journaux :
         -   [<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Le_monde_logo.svg/200px-Le_monde_logo.svg.png" width=40>](http://lemonde.fr).
