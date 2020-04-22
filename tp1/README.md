@@ -101,27 +101,25 @@ pour chaque exercice un squelette à compléter.
         ![tableau](./ex3/img/tableau_ex3.png)
 
 	    <details><summary>Conseils</summary>
-		<div>
-		-   Pour utiliser le fichier de données, incluez-le dans votre
+		- Pour utiliser le fichier de données, incluez-le dans votre
         script.
-		-   La structure de langage `foreach` fournit une façon simple de
+		- La structure de langage `foreach` fournit une façon simple de
         parcourir des tableaux. `foreach` ne fonctionne que pour les
         tableaux et les objets, et émettra une erreur si vous tentez de
         l'utiliser sur une variable de type différent ou une variable
         non initialisée. Il existe deux syntaxes :
 
 		 ```php
-       foreach (array_expression as $value)
+         foreach (array_expression as $value)
                commandes
-       foreach (array_expression as $key => $value)
+         foreach (array_expression as $key => $value)
                commandes
 		 ```
         
 		 Des exemples
         [ici](http://fr2.php.net/manual/fr/control-structures.foreach.php).
 
-		-   Pour arrondir un réel, vous pouvez utiliser la fonction [round](https://www.php.net/manual/fr/function.round.php).
-	    </div>
+		- Pour arrondir un réel, vous pouvez utiliser la fonction [round](https://www.php.net/manual/fr/function.round.php).
 		</details>
 4.  Ecrire un programme PHP qui affiche, sous forme d'une liste
     "cliquable" vos bookmarks (favoris) stockés dans un tableau
