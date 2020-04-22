@@ -90,7 +90,7 @@ pour chaque exercice un squelette à compléter.
     1.  Ecrire un script qui affichent l'ensemble des données sous
         forme d'un tableau html.
     2.  L'imc (indice de masse corporel) d'une personne est donné par
-        la formule \(\frac{poids}\frac{taille^2}\) (poids en kilogramme et taille en mètre). 
+        la formule \\(\frac{poids}\frac{taille^2}\\) (poids en kilogramme et taille en mètre). 
 
 		Ajouter une colonne avec la valeur de l'imc (2 chiffres après la virgule).
 
