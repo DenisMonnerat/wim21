@@ -157,6 +157,6 @@ pour chaque exercice un squelette à compléter.
 	Les fonctions 
 	<a href="https://www.php.net/manual/fr/function.strlen.php">strlen</a>
 	et 
-	<a src="https://www.php.net/manual/fr/function.mt-rand.php">mt_rand</a>
+	<a href="https://www.php.net/manual/fr/function.mt-rand.php">mt_rand</a>
 	pourront vous être utiles.
 	</details>
